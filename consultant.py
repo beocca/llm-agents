@@ -71,7 +71,7 @@ def get_user_input(question):
 
 def print_conversation_element(name, value):
 	print("#######################################################################")
-	print(f"## {name}:\n{value}\n")
+	print(f"## {name}:\n\n{value}\n")
 
 
 # Get the inital user input
@@ -101,10 +101,6 @@ while user_input.lower() not in ["quit", "q"]:
 	# Get the new user input
 	question = "My Thoughts"
 	user_input = get_user_input(question)
-
-
-
-	
 
 
 # Save and summarize brainstorming session
